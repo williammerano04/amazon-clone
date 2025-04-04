@@ -1,0 +1,360 @@
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-bold{
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.p-small{
+    font-size: 14px;
+    color: white;
+}
+.p-bold2{
+    font-weight: bold;
+}
+body{
+    padding-top: 70px;
+    height: 2000px;
+}
+.header-container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 57px;
+    background-color: rgb(15, 17, 17);
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.amazon-logo-container{
+    display: flex;
+    height: 57px;
+    align-items: center;
+    margin-left: 18px;
+    margin-right: 13px;
+}
+.amazon-logo{
+    height: 33px;
+    width: 100px;
+}
+.header-section1-container{
+    min-width: 200px;
+}
+.header-section2-container{
+    display: flex;
+    flex-direction: row;
+    padding: 7px 0px;
+    min-width: 425px;
+    flex: 1;
+    margin-left: 18px;
+    margin-right: 15px;
+    padding-right: 5px;
+}
+.all-btn{
+    padding: 0px 20px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.input-search{
+    border: none;
+    flex: 1;
+    
+}
+.search-btn{
+    padding: 0px 13px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgb(235, 188, 102);
+}
+.magnifying-glass-logo{
+    height: 20px;
+    width: 20px;
+}
+.header-section3-container{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+   
+    
+}
+.section3-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 60px;
+}
+.section3-2{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-left: 10px;
+    width: 70px;
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+.cart-icon{
+    width: 40px;
+    height: 30px;
+}
+.cart-quantity-container{
+    position: absolute;
+    top: -3px;
+    left: 19px;
+   
+}
+.cart-quantity-container2{
+    position: absolute;
+    left: -5px;
+    
+    
+}
+.cart-quantity{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(235, 188, 102);
+    
+}
+
+/* Tracking Content */
+.content-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.view-button-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+}
+.view-button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(137, 136, 136);
+    cursor: pointer;
+}
+.view-button:hover{
+    background-color: rgb(219, 219, 219);
+}
+.view-button:active{
+    background-color: rgb(185, 185, 185);
+}
+.middle{
+   max-width: 850px;
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+}
+.tracking-list-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.deliverytime-container{
+    font-size: 28px;
+    font-weight: bold;
+}
+.product-details-container{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.product-img-container{
+    margin-top: 20px;
+}
+.product-img{
+    width: 170px;
+}
+.progress-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.preparing-container{
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+.shipping-container{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.delivered-container{
+    font-weight: bold;
+    font-size: 20px;
+    color: black
+}
+.shipping-container-appear{
+    
+    color: green;
+}
+.delivered-container-appear{
+    color: green;
+}
+.progress-bar{
+    position: relative;
+    margin-top: 20px;
+    border: solid;
+    height: 20px;
+    display: flex;
+    min-width: none;
+    max-width: 850px;
+    border-radius: 20px;
+    border-color: grey;
+    border-width: 2px;
+}
+.progress-bar-green-25percent{
+    background-color: green;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    
+}
+.progress-bar-green-45percent{
+    background-color: green;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 450px;
+    display: none;
+}
+.progress-bar-green-65percent{
+    background-color: green;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 350px;
+    display: none;
+}
+.progress-bar-green-85percent{
+    background-color: green;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100px;
+    display: none;
+}
+.progress-bar-green-100percent{
+    background-color: green;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0px;
+    display: none;
+}
+
+/*header*/
+.section3-5{
+    display: none;
+    cursor: pointer;
+}
+
+.header-section1-container i{
+    color: white;
+    font-size: 35px;
+    display: none;
+    
+}
+.dropdown-menu{
+    position: absolute;
+    background-color: black;
+    top: 55px;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+.dropdown-menu div{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+}
+.dropdown-menu-quantity{
+    color:rgb(235, 188, 102)
+}
+.dropdown-menu-appear{
+    display: flex;
+}
+@media (max-width:880px){
+    .header-section1-container{
+        min-width: 100px;
+    }
+}
+@media (max-width:800px){
+    .header-section2-container{
+        min-width: 50px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+@media (max-width:730px){
+    .header-section1-container{
+        min-width: 40px;
+    }
+    .header-section1-container i{
+        display: block;
+    }
+    .amazon-logo{
+        display: none;
+    }
+    .section3-1{
+        display: none;
+    }
+    .section3-2{
+        display: none;
+    }
+    .section3-5{
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+    .header-section3-container{
+        width: 15px;
+        padding: 20px;
+    }
+
+}
