@@ -31,7 +31,7 @@ export let productList = [
         name:'Black 2 slot Toaster',
         priceCents:1899,
         ratings:34,
-        img:'images/products/black-2-Slot-toaster.jpg'
+        img:'images/products/black-2-slot-toaster.jpg'
     },
     {
         productid:'2fd28180-74a2-4f8a-8303-37929d6feda3',
